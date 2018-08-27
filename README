@@ -1,0 +1,11 @@
+This is a wrapper around Skype version 7.x for Mac OS X for people
+who prefer it over the new broken & bloated 8.x version.
+
+It's made to prevent Skype from annoyingly asking for a keychain
+access (it doesn't matter whether you allow it or deny it - it
+just keeps re-asking forever). With this wrapper, it informs
+you that your keychain is broken (it now is, for this pesky Skype)
+on startup a couple of times (just hit "Cancel"), and then remains
+silent (until the next restart).
+
+How to use: checkout and type "make run" in the console.
